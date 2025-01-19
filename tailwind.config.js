@@ -9,12 +9,29 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Nunito', 'sans-serif'], // Set Nunito as the default sans-serif font
+				default: ['Roboto', 'system-ui', '-apple-system', 'Segoe UI', 'Arial', 'sans-serif'],
+				heading: ['Nunito', 'sans-serif'],
+				nav: ['Inter', 'sans-serif'],
 			},
+
 			colors: {
 				customBlue: '#0d83fd',
-				background: 'hsl(var(--background))',
+				background: 'var(--background-color)',
+				default: 'var(--default-color)',
+				heading: 'var(--heading-color)',
+				description: 'color-mix(in srgb, var(--default-color), transparent 20%)',
+				accent: 'var(--accent-color)',
+				surface: 'var(--surface-color)',
+				contrast: 'var(--contrast-color)',
 				foreground: 'hsl(var(--foreground))',
+				nav: {
+					DEFAULT: 'var(--nav-color)',
+					hover: 'var(--nav-hover-color)',
+					mobileBg: 'var(--nav-mobile-background-color)',
+					dropdownBg: 'var(--nav-dropdown-background-color)',
+					dropdown: 'var(--nav-dropdown-color)',
+					dropdownHover: 'var(--nav-dropdown-hover-color)',
+				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
@@ -34,10 +51,6 @@ export default {
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
-				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',

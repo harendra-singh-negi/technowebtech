@@ -16,8 +16,8 @@ export default function Services() {
             <section id="services" className="services section py-20">
                 <div className="container mx-auto px-4">
                     <div className="section-header text-center mb-16" data-aos="fade-up">
-                        <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-                        <p className="text-gray-600 max-w-2xl mx-auto">Explore our comprehensive range of IT and digital services designed to empower your business in the digital age.</p>
+                        <h2 className="text-heading  text-3xl font-bold mb-4">Our Services</h2>
+                        <p className="text-description max-w-2xl mx-auto">Explore our comprehensive range of IT and digital services designed to empower your business in the digital age.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

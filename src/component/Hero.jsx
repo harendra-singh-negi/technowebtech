@@ -49,7 +49,7 @@ export default function Hero() {
                   alt="Hero Image"
                   width={600}
                   height={400}
-                  className="rounded-lg shadow-xl"
+                  className="rounded-lg "
                 />
 
                 <div className="w-1/2 customers-badge absolute bottom-4 right-10 bg-white p-4 rounded-lg shadow-md  animate-slow-bounce " >

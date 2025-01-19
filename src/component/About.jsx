@@ -9,8 +9,8 @@ export default function About() {
           <div className="flex flex-wrap items-center justify-between">
             <div className="w-full xl:w-5/12" data-aos="fade-up" data-aos-delay="200">
               <span className="about-meta text-blue-600 font-semibold mb-2 block">MORE ABOUT US</span>
-              <h2 className="about-title text-3xl lg:text-4xl font-bold mb-6">Transforming Ideas into Digital Success</h2>
-              <p className="about-description text-gray-600 mb-6">
+              <h2 className="font-heading text-heading font-bold text-2xl lg:text-3xl mb-6">Transforming Ideas into Digital Success</h2>
+              <p className="about-description text-description mb-6">
                 We are more than just web developers—we are your trusted IT partners. We specialize in delivering comprehensive IT solutions and creative digital services to help businesses achieve operational excellence. From managing your IT infrastructure to building engaging websites, we bring innovation, reliability, and success to your doorstep.
               </p>
 
@@ -48,18 +48,18 @@ export default function About() {
               <div className="image-wrapper relative">
                 <div className="images relative" data-aos="zoom-out" data-aos-delay="400">
                   <img
-                    src="assets/img/about-2.webp"
+                    src="assets/img/about-5.webp"
                     alt="Business Meeting"
                     width={600}
                     height={400}
                     className="main-image rounded-lg shadow-xl"
                   />
                   <img
-                    src="assets/img/about-5.webp"
+                    src="assets/img/about-2.webp"
                     alt="Team Discussion"
                     width={300}
                     height={200}
-                    className="small-image absolute top-1/4 -left-1/4 w-2/5 rounded-lg border-8 border-white shadow-lg"
+                    className="small-image absolute top-1/4 -left-16 w-2/5 rounded-lg border-8 border-white shadow-lg"
                   />
                 </div>
                 <div
